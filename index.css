@@ -1,0 +1,87 @@
+.centre {
+	margin: auto;
+	width: 30%;
+}
+
+.google_logo {
+	margin: auto;
+	width: 100%;
+}
+
+img {
+	position: relative;
+	top: 190px;
+	height: 92px;
+	width: 272px;
+	left: 50px;
+	margin: auto;
+}
+
+form {
+	position: absolute;
+	top: 330px;
+}
+
+input {
+	width: 500px;
+	position: absolute;
+	left: -50px;
+	height: 30px;
+}
+
+#country {
+	position: relative;
+	font-family: roboto-regular, arial, sans-serif;
+	font-size: 16px;
+	color: #4285f4;
+	left: 265px;
+	top: 170px;
+}
+
+.navbar_top {
+	position: absolute;
+	width: 98%;
+}
+
+#apps {
+	width: 20px;
+	height: 20px;
+	margin: auto;
+}
+
+ul {
+	list-style-type: none;
+	float: right;
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	color: #000;
+	text-decoration: none;
+	padding: 3px;
+	font-family: arial;
+	font-size: 13px;
+}
+
+li:hover {
+	text-decoration: underline;
+	color: #456874;
+}
+
+#sign_in {
+	background-color: #0066ff;
+	color: white;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+#sign_in:hover {
+	text-decoration: none;
+}
+
+a {
+		text-decoration: none;
+		color: white;
+}
