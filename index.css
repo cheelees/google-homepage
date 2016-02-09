@@ -27,6 +27,11 @@ input {
 	position: absolute;
 	left: -50px;
 	height: 30px;
+	opacity: 0.5;
+}
+
+input:hover {
+	opacity: 1;
 }
 
 #country {
@@ -60,9 +65,10 @@ li {
 	display: inline;
 	color: #000;
 	text-decoration: none;
-	padding: 3px;
+	padding: 5px;
 	font-family: arial;
 	font-size: 13px;
+	opacity: 0.75;
 }
 
 li:hover {
@@ -75,6 +81,7 @@ li:hover {
 	color: white;
 	padding: 10px;
 	border-radius: 4px;
+	opacity: 1;
 }
 
 #sign_in:hover {
@@ -84,4 +91,61 @@ li:hover {
 a {
 		text-decoration: none;
 		color: white;
+}
+
+.buttons {
+	width: 100%;
+}
+
+.buttons p {
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	font-size: 13px;
+	color: #757575;
+	background-color:#f5f5f5;
+	margin: 0 0 0 0;
+}
+
+#google_search {
+	width: 100px;
+	position: absolute;
+	top: 400px;
+	left: 550px;
+}
+
+#lucky {
+	position: absolute;
+	top: 400px;
+	right: 530px;
+}
+
+.buttons p:hover {
+	color: black;
+	border: 1px solid #757575;
+}
+body {
+	font-family: arial;
+}
+
+.navbar_bottom {
+	position: absolute;
+	bottom: 0;
+	width: 99.4%;
+	border-top: 1px solid #e4e4e4;
+	background-color: #f1f1f1;
+}
+
+.navright {
+	float: right;
+	margin: 0 0 10px 0;
+	padding: 10px 0 0 0;
+}
+
+.navleft {
+	float: left;
+	position: absolute;
+	bottom: 10px;
+	padding: 10px 0 0 0;
 }
